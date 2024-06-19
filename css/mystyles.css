@@ -1,0 +1,59 @@
+body{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+    background-color: grey;
+}
+h1{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:antiquewhite;
+}
+
+
+/*Div Styles*/
+.common{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.top{
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}
+.middle{
+    top: 100px;
+    left: 0px;
+    right: 0px;
+    border: 5px solid black;
+}
+
+.bottom{
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 1;
+    text-align: center;
+    background-color: darkolivegreen;
+    font-style: italic;
+    font-weight: bold;
+}
+.imgcenter{
+    display: block;
+    margin: auto;
+    border: 5px solid dimgray;
+}
+.centered{
+    position:relative;
+    top: 5px;
+    width: 85%;
+    margin: 0px auto; 
+    text-align: center;
+}
+.inline{
+    display: inline-block;
+    margin: 5px 15px;
+    vertical-align: middle;
+}
+.tableauPlaceholder{
+    margin: 0 auto;
+    width: 1000px;
+}
